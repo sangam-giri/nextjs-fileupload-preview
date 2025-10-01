@@ -156,7 +156,7 @@ export default function FileUpload() {
           {/* Close */}
           <button
             onClick={() => setPreviewIndex(null)}
-            className="absolute top-6 right-6 text-white text-3xl"
+            className="absolute top-6 right-6 z-50 text-white text-3xl bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition"
           >
             <X />
           </button>
